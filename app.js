@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://jawad:jawad123@cluster0.5xzzutu.mongodb.net/newInventory', {
+mongoose.connect('Your mongoDb key', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
